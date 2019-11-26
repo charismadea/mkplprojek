@@ -8,8 +8,8 @@ $mhs = new stdClass;
 $row = MYSQLI_FETCH_ASSOC($query);
 
 $mhs -> NIM = $row['NIM'];
-$mhs -> Nama = $row['Nama'];
-$mhs -> Jurusan = $row['Jurusan'];
+$mhs -> Nama = $row['NAMA'];
+$mhs -> Jurusan = $row['JURUSAN'];
 $mhs -> Fakultas = $row['Fakultas'];
 $mhs -> Alamat = $row['Alamat'];
 $mhs -> NoHp = $row['NoHp'];
