@@ -1,7 +1,7 @@
 <?php
 REQUIRE_ONCE('koneksi.php');
 
-$query = MYSQLI_QUERY($conn, "SELECT * FROM MAHASISWA");
+$query = MYSQLI_QUERY($conn, "SELECT * FROM NIM");
 
 $mhs = new stdClass;
 
